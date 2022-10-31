@@ -1,6 +1,6 @@
-'''
+"""
 based on code taken from: https://github.com/hexiangnan/neural_collaborative_filtering/blob/master/evaluate.py
-'''
+"""
 import math
 import heapq
 import numpy as np

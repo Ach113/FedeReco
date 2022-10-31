@@ -7,5 +7,5 @@ MODEL_PARAMETERS = {
     },
 }
 
-SAVED_MODEL_PATH = 'pretrained/DefaultModel.h5'
-DATA_PATH = 'data/ml-1m'
+SAVED_MODEL_PATH = '../pretrained/DefaultModel.h5'
+DATA_PATH = '../data/ml-1m'
