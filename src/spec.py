@@ -9,3 +9,7 @@ MODEL_PARAMETERS = {
 
 SAVED_MODEL_PATH = '../pretrained/DefaultModel.h5'
 DATA_PATH = '../data/ml-1m'
+
+# number of negative samples per positive sample (per user id)
+NUM_NEGATIVES = 3
+LEARNING_RATE = .01

@@ -19,7 +19,8 @@ def main():
     if os.path.exists(SAVED_MODEL_PATH):
         model.load_weights(SAVED_MODEL_PATH)
     else:
-        model = train_model(train)
+        print('Saved model not found, training the built model')
+        model = train_model(model, train, 10)
     # evaluate the model
     print('Evaluating the model')
     hr, ndcg = evaluate_model(model, test_ratings, test_negatives, k=10, n_threads=1)
